@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: 'utf8'
+  database: csv_import_development
+  pool: 5
+  host: localhost
+  username: postgres
+  password: cisin123
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: 'utf8'
+  database: csv_import_test
+  pool: 5
+  host: localhost
+  username: postgres
+  password: cisin123
+  port: 5432
